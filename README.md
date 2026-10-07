@@ -1,16 +1,38 @@
-# React + Vite
+# 🌓 React Theme Switcher & Developer Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern developer profile card built with **React**, **Tailwind CSS**, and **Vite**. It features a smooth light/dark theme switcher powered by a custom React Context hook.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🌗 **Light / Dark Mode Toggle:** Smooth theme switching managed via custom React Context (`useTheme`).
+- 🎨 **Tailwind CSS Styling:** Modern UI components with utility-first dark mode support.
+- 📱 **Fully Responsive:** Clean, adaptive layout for mobile, tablet, and desktop screens.
+- ⚡ **Vite Powered:** Fast development build and Hot Module Replacement (HMR).
+- 🧩 **Modular Components:** Reusable card and theme button structure.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** React 18
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Context API:** React Context Hook (`ThemeContext`)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+### Prerequisites
+Make sure you have Node.js installed (v18 or higher recommended).
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Nishit-soni-01/react-theme-switcher-card.git](https://github.com/Nishit-soni-01/react-theme-switcher-card.git)
+   cd react-theme-switcher-card
